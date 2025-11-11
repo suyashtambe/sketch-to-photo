@@ -11,7 +11,7 @@
 
 ## 🧠 Project Overview
 
-**Sketch-to-Photo** is a Deep Learning project that converts hand-drawn sketches into **realistic photos** using the **Pix2Pix Conditional GAN (cGAN)** architecture.  
+**Sketch-to-Photo** is a GANs project that converts hand-drawn sketches into **realistic photos** using the **Pix2Pix Conditional GAN (cGAN)** architecture.  
 It demonstrates the potential of Generative Adversarial Networks (GANs) in **image-to-image translation** tasks.
 
 ---
@@ -45,7 +45,6 @@ The frontend will start on 👉 http://localhost:3000
 bash
 Copy code
 cd backend
-pip install -r requirements.txt
 python app.py
 The backend will start on 👉 http://localhost:5000
 
