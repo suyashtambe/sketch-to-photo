@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# Include only these folders and this file
+!.gitignore
+!coding/
+!sketch-to-photo-app/
+
+# Inside sketch-to-photo-app, ignore dependencies and builds
+sketch-to-photo-app/node_modules/
+sketch-to-photo-app/public/
+sketch-to-photo-app/build/
+sketch-to-photo-app/.env
